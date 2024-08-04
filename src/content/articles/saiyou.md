@@ -73,15 +73,17 @@ tags: "採用"
         </div>
         <div class="description">
           <p>
-            『Keibee』は、NNN株式会社が提供する警備業に特化した採用サイトで、2024年6月に開始した新サービスです。採用課金型で、返金対応も充実しているため、ノーリスクで利用できるところが、好まれているようです。
-            また、Securictという勤怠管理・管制システムもあり、警備業の効率化を目指しているようです。
+            『Keibee』は、NNN株式会社が提供する警備業に特化した採用サイトで、2024年6月に開始した新サービスです。
+            特筆すべきは、採用課金型で一人当たり4万円(パート・アルバイト)という料金です。
+            早期辞職時の返金対応もあるため、ノーリスクで利用できるところが、好まれているようです。
+            また、Securictという勤怠管理・管制システムもあり、警備業全体のサポートを目指しているようです。
           </p>
           <p>
             アルバイト・契約社員、正社員の採用ができるほか、様々な採用活動の対応可能。
           </p>
           <p>
             採用サイトでは、掲載内容の変更、応募者情報の確認などが可能なようです。
-　　　　　　　また、管制システムとあわせて導入すれば、スマホで上下番号報告ができるほか、シフト申請　　　　　　　や管理、配置予定管理もスマホで対応可能、給与計算へのデータ連動も可能で、明細書の　　　　　　　発行までまで行えるのも便利なポイントです。
+            また、管制システムとあわせて導入すれば、スマホで上下番号報告ができるほか、シフト申請や管理、配置予定管理もスマホで対応可能給与計算へのデータ連動も可能で、明細書の発行までまで行えるのも便利なポイントです。
           </p>
           <p class="source">
             お問い合わせ：<a href="https://securict.jp/inq2" target="_blank" rel="noopener noreferrer">https://securict.jp/inq2</a>
@@ -95,7 +97,7 @@ tags: "採用"
       </header>
       <div class="content">
         <div class="image-section">
-          <img src="/keisearch.jpg" alt="Keibee" class="main-image" />
+          <img src="/keisearch.jpg" alt="keisearch" class="main-image" />
           出典：<a href="https://www.keibi-baito.com/#" target="_blank" rel="noopener noreferrer">https://www.keibi-baito.com/#</a>
         </div>
         <div class="price">
