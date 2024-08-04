@@ -1,6 +1,5 @@
 import React from 'react';
-import { MDXRemote } from 'next-mdx-remote';
-import { MDXRemoteSerializeResult } from 'next-mdx-remote/dist/types';
+import { MDXRemote, MDXRemoteSerializeResult } from 'next-mdx-remote';
 
 interface MarkdownContentProps {
   source: MDXRemoteSerializeResult;
