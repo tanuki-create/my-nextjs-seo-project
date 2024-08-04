@@ -95,8 +95,8 @@ tags: "採用"
       </header>
       <div class="content">
         <div class="image-section">
-          <img src="/keibee.png" alt="Keibee" class="main-image" />
-          出典：<a href="https://securict.jp/keibee" target="_blank" rel="noopener noreferrer">https://securict.jp/keibee</a>
+          <img src="/keisearch.jpg" alt="Keibee" class="main-image" />
+          出典：<a href="https://www.keibi-baito.com/#" target="_blank" rel="noopener noreferrer">https://www.keibi-baito.com/#</a>
         </div>
         <div class="price">
           <p>課金形態:掲載課金(4週間)</p>
@@ -104,16 +104,16 @@ tags: "採用"
         </div>
         <div class="description">
           <p>
-            『ケイサーチ！』は、NNN株式会社が提供する警備業に特化した採用サイトで、2024年6月に開始した新サービスです。また、Securictという勤怠管理システムも開発しているようです。
+            『ケイサーチ！』は、
           </p>
           <p>
             アルバイト・契約社員、正社員の採用ができるほか、様々な採用活動の対応可能。
           </p>
           <p>
-            管制システムとあわせて導入すれば、スマホで上下番号報告ができるほか、シフト申請や管理、配置予定管理もスマホで対応可能給与計算へのデータ連動も可能で、明細書の発行までまで行えるのも便利なポイントです。
+            <!-- 管制システムとあわせて導入すれば、スマホで上下番号報告ができるほか、シフト申請や管理、配置予定管理もスマホで対応可能給与計算へのデータ連動も可能で、明細書の発行までまで行えるのも便利なポイントです。 -->
           </p>
           <p class="source">
-            お問い合わせ：<a href="https://securict.jp/inq2" target="_blank" rel="noopener noreferrer">https://securict.jp/inq2</a>
+            お問い合わせ：<a href="https://www.keibi-baito.com/contactus" target="_blank" rel="noopener noreferrer">https://www.keibi-baito.com/contactus</a>
           </p>
         </div>
       </div>
