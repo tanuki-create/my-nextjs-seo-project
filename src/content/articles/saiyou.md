@@ -52,6 +52,7 @@ tags: "採用"
         <li>実績</li>
       </ul>
       自社の予算や求める機能などを考慮して、無料の求人サイトと有料の求人サイトのどちらを利用するかを決めましょう。
+      また、少しでも採用費を少なくしたい場合は、応募課金、採用課金の媒体がおすすめです。
     </p>
   </section>
 
@@ -59,7 +60,67 @@ tags: "採用"
     <h2 class="section-title">おすすめの警備特化型求人サイト</h2>
     <div class="security-pro">
       <header class="header">
-        <h1 style="font-size: 25px; font-weight: bold;">1. Keibee (ケイビー)</h1>
+        <h1 style="font-size: 25px; font-weight: bold;">1. 『Keibee (ケイビー)』</h1>
+      </header>
+      <div class="content">
+        <div class="image-section">
+          <img src="/keibee.png" alt="Keibee" class="main-image" />
+          出典：<a href="https://securict.jp/keibee" target="_blank" rel="noopener noreferrer">https://securict.jp/keibee</a>
+        </div>
+        <div class="price">
+          <p>課金形態:採用課金 (掲載2件まで無料)</p>
+          <p>一人当たり40,000円(アルバイト・パート) / 一人当たり100,000円(正社員)</p>
+        </div>
+        <div class="description">
+          <p>
+            『Keibee』は、NNN株式会社が提供する警備業に特化した採用サイトで、2024年6月に開始した新サービスです。採用課金型で、返金対応も充実しているため、ノーリスクで利用できるところが、好まれているようです。
+            また、Securictという勤怠管理・管制システムもあり、警備業の効率化を目指しているようです。
+          </p>
+          <p>
+            アルバイト・契約社員、正社員の採用ができるほか、様々な採用活動の対応可能。
+          </p>
+          <p>
+            採用サイトでは、掲載内容の変更、応募者情報の確認などが可能なようです。
+　　　　　　　また、管制システムとあわせて導入すれば、スマホで上下番号報告ができるほか、シフト申請　　　　　　　や管理、配置予定管理もスマホで対応可能、給与計算へのデータ連動も可能で、明細書の　　　　　　　発行までまで行えるのも便利なポイントです。
+          </p>
+          <p class="source">
+            お問い合わせ：<a href="https://securict.jp/inq2" target="_blank" rel="noopener noreferrer">https://securict.jp/inq2</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="security-pro">
+      <header class="header">
+        <h1 style="font-size: 25px; font-weight: bold;">2. 『ケイサーチ！』</h1>
+      </header>
+      <div class="content">
+        <div class="image-section">
+          <img src="/keibee.png" alt="Keibee" class="main-image" />
+          出典：<a href="https://securict.jp/keibee" target="_blank" rel="noopener noreferrer">https://securict.jp/keibee</a>
+        </div>
+        <div class="price">
+          <p>課金形態:掲載課金(4週間)</p>
+          <p>一掲載40,000円~500,000円</p>
+        </div>
+        <div class="description">
+          <p>
+            『ケイサーチ！』は、NNN株式会社が提供する警備業に特化した採用サイトで、2024年6月に開始した新サービスです。また、Securictという勤怠管理システムも開発しているようです。
+          </p>
+          <p>
+            アルバイト・契約社員、正社員の採用ができるほか、様々な採用活動の対応可能。
+          </p>
+          <p>
+            管制システムとあわせて導入すれば、スマホで上下番号報告ができるほか、シフト申請や管理、配置予定管理もスマホで対応可能給与計算へのデータ連動も可能で、明細書の発行までまで行えるのも便利なポイントです。
+          </p>
+          <p class="source">
+            お問い合わせ：<a href="https://securict.jp/inq2" target="_blank" rel="noopener noreferrer">https://securict.jp/inq2</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="security-pro">
+      <header class="header">
+        <h1 style="font-size: 25px; font-weight: bold;">3. 『セキュリティワーク』</h1>
       </header>
       <div class="content">
         <div class="image-section">
@@ -88,7 +149,7 @@ tags: "採用"
     </div>
     <div class="security-pro">
       <header class="header">
-        <h1 style="font-size: 25px; font-weight: bold;">2. ケイサーチ</h1>
+        <h1 style="font-size: 25px; font-weight: bold;">4. 『ケイビーベイビ』</h1>
       </header>
       <div class="content">
         <div class="image-section">
@@ -117,65 +178,7 @@ tags: "採用"
     </div>
     <div class="security-pro">
       <header class="header">
-        <h1 style="font-size: 25px; font-weight: bold;">3. セキュリティワーク</h1>
-      </header>
-      <div class="content">
-        <div class="image-section">
-          <img src="/keibee.png" alt="Keibee" class="main-image" />
-          出典：<a href="https://securict.jp/keibee" target="_blank" rel="noopener noreferrer">https://securict.jp/keibee</a>
-        </div>
-        <div class="price">
-          <p>課金形態:採用課金</p>
-          <p>一人当たり40,000円(アルバイト・パート)</p>
-        </div>
-        <div class="description">
-          <p>
-            『Keibee』は、NNN株式会社が提供する警備業に特化した採用サイトで、2024年6月に開始した新サービスです。また、Securictという勤怠管理システムも開発しているようです。
-          </p>
-          <p>
-            アルバイト・契約社員、正社員の採用ができるほか、様々な採用活動の対応可能。
-          </p>
-          <p>
-            管制システムとあわせて導入すれば、スマホで上下番号報告ができるほか、シフト申請や管理、配置予定管理もスマホで対応可能給与計算へのデータ連動も可能で、明細書の発行までまで行えるのも便利なポイントです。
-          </p>
-          <p class="source">
-            お問い合わせ：<a href="https://securict.jp/inq2" target="_blank" rel="noopener noreferrer">https://securict.jp/inq2</a>
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="security-pro">
-      <header class="header">
-        <h1 style="font-size: 25px; font-weight: bold;">4. ケイビーベイビ</h1>
-      </header>
-      <div class="content">
-        <div class="image-section">
-          <img src="/keibee.png" alt="Keibee" class="main-image" />
-          出典：<a href="https://securict.jp/keibee" target="_blank" rel="noopener noreferrer">https://securict.jp/keibee</a>
-        </div>
-        <div class="price">
-          <p>課金形態:採用課金</p>
-          <p>一人当たり40,000円(アルバイト・パート)</p>
-        </div>
-        <div class="description">
-          <p>
-            『Keibee』は、NNN株式会社が提供する警備業に特化した採用サイトで、2024年6月に開始した新サービスです。また、Securictという勤怠管理システムも開発しているようです。
-          </p>
-          <p>
-            アルバイト・契約社員、正社員の採用ができるほか、様々な採用活動の対応可能。
-          </p>
-          <p>
-            管制システムとあわせて導入すれば、スマホで上下番号報告ができるほか、シフト申請や管理、配置予定管理もスマホで対応可能給与計算へのデータ連動も可能で、明細書の発行までまで行えるのも便利なポイントです。
-          </p>
-          <p class="source">
-            お問い合わせ：<a href="https://securict.jp/inq2" target="_blank" rel="noopener noreferrer">https://securict.jp/inq2</a>
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="security-pro">
-      <header class="header">
-        <h1 style="font-size: 25px; font-weight: bold;">5. POWERWORK</h1>
+        <h1 style="font-size: 25px; font-weight: bold;">5. 『POWERWORK』</h1>
       </header>
       <div class="content">
         <div class="image-section">
