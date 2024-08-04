@@ -16,7 +16,7 @@ export const getArticleData = (slug: string) => {
   return {
     ...data,
     content,
-    tags: data.tags ? data.tags.split(',').map(tag => tag.trim()) : [], // Ensure tags is always an array
+    tags: data.tags ? data.tags.split(',').map((tag: string) => tag.trim()) : [], // Ensure tags is always an array
     slug, // Add slug to the returned object
     image: imageUrl, // 画像URLを追加
   };
