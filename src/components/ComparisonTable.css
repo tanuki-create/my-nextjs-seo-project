@@ -1,0 +1,16 @@
+/* ComparisonTable.css */
+.comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .comparison-table th, .comparison-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .comparison-table th {
+    background-color: #f4f4f4;
+  }
+  

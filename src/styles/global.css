@@ -1,0 +1,212 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #fcfcfd; /* 背景色を追加 */
+    color: #333; /* テキストカラーを追加 */
+}
+
+a {
+    color: #3182ce;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #2b6cb0;
+}
+
+.bg-gray-100 {
+    background-color: #ffffff;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.shadow-md {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.shadow-md:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-sm {
+    font-size: 0.875rem;
+}
+
+.text-xl {
+    font-size: 1.25rem;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem; /* パディングを追加 */
+}
+
+.px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+.py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+.mb-6 {
+    margin-bottom: 1.5rem;
+}
+
+.w-2/3 {
+    width: 66.666667%;
+}
+
+.w-1/3 {
+    width: 33.333333%;
+}
+
+.pr-8 {
+    padding-right: 2rem;
+}
+
+.rounded-lg {
+    border-radius: 0.5rem;
+}
+
+.rounded-l-lg {
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.object-cover {
+    object-fit: cover;
+}
+
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.bg-blue-600 {
+    background-color: #3182ce;
+    transition: background-color 0.3s ease;
+}
+
+.bg-blue-600:hover {
+    background-color: #2b6cb0;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-gray-600 {
+    color: #718096;
+}
+
+.text-gray-500 {
+    color: #a0aec0;
+}
+
+.bg-orange-100 {
+    background-color: #fed7d7;
+}
+
+.text-orange-600 {
+    color: #e53e3e;
+}
+
+.bg-gray-800 {
+    background-color: #2d3748;
+}
+
+/* 新しいスタイルを追加 */
+
+.text-custom-color {
+    color: #293241; /* ここでテキストの色を設定 */
+}
+
+.h-8 {
+    height: 2rem; /* 8 * 0.25rem = 2rem */
+}
+
+.mr-2 {
+    margin-right: 0.5rem; /* 2 * 0.25rem = 0.5rem */
+}
+
+/* レスポンシブデザイン */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 0.5rem;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .w-2/3, .w-1/3 {
+        width: 100%;
+    }
+}
+
+.image-resize {
+  width: 500px; /* 幅を100pxに設定 */
+  height: auto; /* 高さを自動調整 */
+  max-width: 100%; /* 親要素の幅に合わせて最大幅を設定 */
+  object-fit: cover; /* 画像をコンテナに収める */
+}
+
+.image-resize-home {
+  width: 150px; /* 幅を100pxに設定 */
+  height: auto; /* 高さを自動調整 */
+  max-width: 100%; /* 親要素の幅に合わせて最大幅を設定 */
+  object-fit: cover; /* 画像をコンテナに収める */
+}
+
+.tag {
+  margin-left: 5rem; /* 左に0.5remの余白を追加 */
+}
+
+.main-image {
+  width: 500px; /* 幅を500pxに設定 */
+  height: auto; /* 高さを自動調整 */
+  max-width: 100%; /* 親要素の幅に合わせて最大幅を設定 */
+  object-fit: cover; /* 画像をコンテナに収める */
+  display: block; /* ブロック要素に設定 */
+  margin: 0 auto; /* 中央寄せ */
+}
