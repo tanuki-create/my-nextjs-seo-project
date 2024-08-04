@@ -4,6 +4,7 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import Header from '../../components/header';
+import Footer from '../../components/footer';
 
 const articlesDirectory = path.join(process.cwd(), 'src/content/articles');
 
@@ -40,6 +41,7 @@ const ArticlePage: React.FC<{ data: any; content: string }> = ({ data, content }
         <h1 className="text-3xl font-bold mb-4">{data.title}</h1>
         <div className="prose" dangerouslySetInnerHTML={{ __html: content }} />
       </article>
+      <Footer />
     </div>
   );
 };
