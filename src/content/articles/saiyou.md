@@ -129,25 +129,21 @@ tags: "採用"
       </header>
       <div class="content">
         <div class="image-section">
-          <img src="/keibee.png" alt="Keibee" class="main-image" />
-          出典：<a href="https://securict.jp/keibee" target="_blank" rel="noopener noreferrer">https://securict.jp/keibee</a>
+          <img src="/logo.gif" alt="Securitywork" class="main-image" />
+          出典：<a href="https://securityguard-work.com/" target="_blank" rel="noopener noreferrer">https://securityguard-work.com/</a>
         </div>
         <div class="price">
-          <!-- <p>課金形態:採用課金</p> -->
-          <!-- <p>一人当たり40,000円(アルバイト・パート)</p> -->
+          <p>課金形態:要問い合わせ</p>
         </div>
         <div class="description">
           <p>
-            <!-- 『Keibee』は、NNN株式会社が提供する警備業に特化した採用サイトで、2024年6月に開始した新サービスです。また、Securictという勤怠管理システムも開発しているようです。 -->
+            『セキュリティワーク』は、警備業界初の警備専門の求人サービスです。また、転職サービスや、求人広告サービス、人材紹介サービス、WEB集客の代行、採用WEBサイトの作成、面接コンサルティングも付随しており、採用に関しては、アルバイト・契約社員、正社員の採用ができるほか、様々な採用活動の対応可能です。
           </p>
           <p>
-            <!-- アルバイト・契約社員、正社員の採用ができるほか、様々な採用活動の対応可能。 -->
-          </p>
-          <p>
-            <!-- 管制システムとあわせて導入すれば、スマホで上下番号報告ができるほか、シフト申請や管理、配置予定管理もスマホで対応可能給与計算へのデータ連動も可能で、明細書の発行までまで行えるのも便利なポイントです。 -->
+            月間新規会員数約500人以上！累計1万人以上のご利用実績があるようです。
           </p>
           <p class="source">
-            お問い合わせ：<a href="https://securict.jp/inq2" target="_blank" rel="noopener noreferrer">https://securict.jp/inq2</a>
+            お問い合わせ：<a href="https://securityguard-work.com/saiyou#contact" target="_blank" rel="noopener noreferrer">https://securityguard-work.com/saiyou#contact</a>
           </p>
         </div>
       </div>
@@ -158,8 +154,8 @@ tags: "採用"
       </header>
       <div class="content">
         <div class="image-section">
-          <img src="/keibee.png" alt="Keibee" class="main-image" />
-          出典：<a href="https://securict.jp/keibee" target="_blank" rel="noopener noreferrer">https://securict.jp/keibee</a>
+          <img src="/keibibabe.png" alt="Keibee" class="main-image" />
+          出典：<a href="https://keibee-babe.com/" target="_blank" rel="noopener noreferrer">https://keibee-babe.com/</a>
         </div>
         <div class="price">
           <!-- <p>課金形態:採用課金</p> -->
@@ -176,7 +172,7 @@ tags: "採用"
             <!-- 管制システムとあわせて導入すれば、スマホで上下番号報告ができるほか、シフト申請や管理、配置予定管理もスマホで対応可能給与計算へのデータ連動も可能で、明細書の発行までまで行えるのも便利なポイントです。 -->
           </p>
           <p class="source">
-            お問い合わせ：<a href="https://securict.jp/inq2" target="_blank" rel="noopener noreferrer">https://securict.jp/inq2</a>
+            お問い合わせ：<a href="https://keibee-babe.com/kyujin-contact" target="_blank" rel="noopener noreferrer">https://keibee-babe.com/kyujin-contact</a>
           </p>
         </div>
       </div>
