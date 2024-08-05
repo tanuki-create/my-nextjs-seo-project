@@ -182,8 +182,8 @@ tags: "採用"
       </header>
       <div class="content">
         <div class="image-section">
-          <img src="/keibee.png" alt="Keibee" class="main-image" />
-          出典：<a href="https://securict.jp/keibee" target="_blank" rel="noopener noreferrer">https://securict.jp/keibee</a>
+          <img src="/powerwork.png" alt="Keibee" class="main-image" />
+          出典：<a href="https://powerwork.jp/" target="_blank" rel="noopener noreferrer">https://powerwork.jp/</a>
         </div>
         <div class="price">
           <p>課金形態:掲載課金</p>
