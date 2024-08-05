@@ -109,13 +109,13 @@ tags: "採用"
         </div>
         <div class="description">
           <p>
-            『ケイサーチ！』は、
+            『ケイサーチ！』は、株式会社第二章が提供する警備業に特化した採用サイトです。様々なプランが用意されており、予算に合わせて求人投稿が可能です。
           </p>
           <p>
-            アルバイト・契約社員、正社員の採用ができるほか、様々な採用活動の対応可能。
+            アルバイト・契約社員、正社員の採用ができるほか、様々な採用活動の対応可能。一番ランクの高いプランに入ることで、求職者にとって目がつきやすくなります。また専任のコンサルタントがつくため、サポートが充実しています。
           </p>
           <p>
-            <!-- 管制システムとあわせて導入すれば、スマホで上下番号報告ができるほか、シフト申請や管理、配置予定管理もスマホで対応可能給与計算へのデータ連動も可能で、明細書の発行までまで行えるのも便利なポイントです。 -->
+            9,000件以上の掲載実績
           </p>
           <p class="source">
             お問い合わせ：<a href="https://www.keibi-baito.com/contactus" target="_blank" rel="noopener noreferrer">https://www.keibi-baito.com/contactus</a>
@@ -140,7 +140,7 @@ tags: "採用"
             『セキュリティワーク』は、警備業界初の警備専門の求人サービスです。また、転職サービスや、求人広告サービス、人材紹介サービス、WEB集客の代行、採用WEBサイトの作成、面接コンサルティングも付随しており、採用に関しては、アルバイト・契約社員、正社員の採用ができるほか、様々な採用活動の対応可能です。
           </p>
           <p>
-            月間新規会員数約500人以上！累計1万人以上のご利用実績があるようです。
+            月間新規会員数約500人以上、累計1万人以上のご利用実績があるようです。
           </p>
           <p class="source">
             お問い合わせ：<a href="https://securityguard-work.com/saiyou#contact" target="_blank" rel="noopener noreferrer">https://securityguard-work.com/saiyou#contact</a>
@@ -158,18 +158,17 @@ tags: "採用"
           出典：<a href="https://keibee-babe.com/" target="_blank" rel="noopener noreferrer">https://keibee-babe.com/</a>
         </div>
         <div class="price">
-          <!-- <p>課金形態:採用課金</p> -->
-          <!-- <p>一人当たり40,000円(アルバイト・パート)</p> -->
+          <p>課金形態:要問い合わせ</p>
         </div>
         <div class="description">
           <p>
-            <!-- 『Keibee』は、NNN株式会社が提供する警備業に特化した採用サイトで、2024年6月に開始した新サービスです。また、Securictという勤怠管理システムも開発しているようです。 -->
+            『ケイビーベイビ』は、クゥー株式会社が提供する警備業に特化した採用サイトです。「警備 求人」、「警備 仕事」などのキーワード検索で上位表示されるため、求職者にとって見つけやすいサイトです。
           </p>
           <p>
-            <!-- アルバイト・契約社員、正社員の採用ができるほか、様々な採用活動の対応可能。 -->
+            施設警備、交通誘導、雑踏警備、駐車場警備、鉄道警備、輸送警備として働きたい警備スタッフを採用可能なようです。
           </p>
           <p>
-            <!-- 管制システムとあわせて導入すれば、スマホで上下番号報告ができるほか、シフト申請や管理、配置予定管理もスマホで対応可能給与計算へのデータ連動も可能で、明細書の発行までまで行えるのも便利なポイントです。 -->
+            サイトリピーター率約70%がということで、よりユーザーが訪れやすいサイトのようです。
           </p>
           <p class="source">
             お問い合わせ：<a href="https://keibee-babe.com/kyujin-contact" target="_blank" rel="noopener noreferrer">https://keibee-babe.com/kyujin-contact</a>
@@ -187,21 +186,21 @@ tags: "採用"
           出典：<a href="https://securict.jp/keibee" target="_blank" rel="noopener noreferrer">https://securict.jp/keibee</a>
         </div>
         <div class="price">
-          <!-- <p>課金形態:採用課金</p> -->
-          <!-- <p>一人当たり40,000円(アルバイト・パート)</p> -->
+          <p>課金形態:掲載課金</p>
+          <p>50,000円-200,000円(4週)</p>
         </div>
         <div class="description">
           <p>
-            <!-- 『Keibee』は、NNN株式会社が提供する警備業に特化した採用サイトで、2024年6月に開始した新サービスです。また、Securictという勤怠管理システムも開発しているようです。 -->
+            『POWERWORK』は、株式会社 WINNERS（ウィナーズ）が提供する建設業・警備業に特化した採用サイトです。ネット媒体以外にも、求人雑誌を運営しており、様々な人材にアプローチ可能です。
           </p>
           <p>
-            <!-- アルバイト・契約社員、正社員の採用ができるほか、様々な採用活動の対応可能。 -->
+            主に建設業がメインの採用サイトですが、警備の採用広告も出すことが可能です。
           </p>
           <p>
-            <!-- 管制システムとあわせて導入すれば、スマホで上下番号報告ができるほか、シフト申請や管理、配置予定管理もスマホで対応可能給与計算へのデータ連動も可能で、明細書の発行までまで行えるのも便利なポイントです。 -->
+            現在、警備業では掲載されている求人は5件あります。
           </p>
           <p class="source">
-            お問い合わせ：<a href="https://securict.jp/inq2" target="_blank" rel="noopener noreferrer">https://securict.jp/inq2</a>
+            お問い合わせ：<a href="https://powerwork.jp/lp/powerwork_inquiry/" target="_blank" rel="noopener noreferrer">https://powerwork.jp/lp/powerwork_inquiry/</a>
           </p>
         </div>
       </div>
