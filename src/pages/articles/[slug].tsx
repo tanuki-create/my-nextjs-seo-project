@@ -5,6 +5,7 @@ import path from 'path';
 import matter from 'gray-matter';
 import Header from '../../components/header';
 import Footer from '../../components/footer';
+import SEO from '../../components/SEO';
 
 const articlesDirectory = path.join(process.cwd(), 'src/content/articles');
 
@@ -36,6 +37,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 const ArticlePage: React.FC<{ data: any; content: string }> = ({ data, content }) => {
   return (
     <div>
+      <SEO title={data.title} description={data.excerpt || content.slice(0, 150)} image={data.image} />
       <Header />
       <article className="container mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold mb-4">{data.title}</h1>

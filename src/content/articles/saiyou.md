@@ -15,6 +15,72 @@ tags: "採用"
     </div>
   </div>
 
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>採用サイト表</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 18px;
+            text-align: left;
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>採用サイト名</th>
+                <th>課金形態</th>
+                <th>料金</th>
+                <th>備考</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>月額</td>
+                <td>¥10,000</td>
+                <td>基本プラン</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>月額</td>
+                <td>¥20,000</td>
+                <td>プレミアムプラン</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>従量課金</td>
+                <td>¥5,000</td>
+                <td>1件あたりの料金</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>月額</td>
+                <td>¥15,000</td>
+                <td>中小企業向け</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>従量課金</td>
+                <td>¥8,000</td>
+                <td>オプション追加料金</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
   <nav class="nav">
     <h2 class="nav-title">目次</h2>
     <ul class="nav-list">

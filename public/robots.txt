@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://keibi.org/sitemap.xml
