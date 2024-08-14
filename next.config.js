@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  output: 'export',  // この行を追加します
+  output: 'export',
 }
 
 module.exports = nextConfig;
