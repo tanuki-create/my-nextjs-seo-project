@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const { SitemapStream, streamToPromise } = require('sitemap');
-const { getAllArticleSlugs } = require('./src/lib/api');
+const { getAllArticleSlugs } = require('/Users/hiro/my-nextjs-seo-project/src/lib/api.ts');
 
 async function generateSitemap() {
   const smStream = new SitemapStream({ hostname: 'https://keibi.org' });
