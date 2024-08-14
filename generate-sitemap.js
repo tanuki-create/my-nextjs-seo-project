@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const { SitemapStream, streamToPromise } = require('sitemap');
-const { getAllArticleSlugs } = require('./src/lib/api.ts');
+const { getAllArticleSlugs } = require('./src/lib/api');
 
 async function generateSitemap() {
   const smStream = new SitemapStream({ hostname: 'https://yourdomain.com' });
