@@ -1,12 +1,12 @@
 const fs = require('fs');
 const path = require('path');
 const { SitemapStream, streamToPromise } = require('sitemap');
-const { getAllArticleSlugs } = require('./src/lib/api');
+const { fetchData } = require('./src/lib/api');
 
 async function generateSitemap() {
   const smStream = new SitemapStream({ hostname: 'https://yourdomain.com' });
 
-  const slugs = getAllArticleSlugs();
+  const slugs = fetchData();
   slugs.forEach((slug) => {
     smStream.write({ url: `/articles/${slug}`, changefreq: 'daily', priority: 0.9 });
   });
