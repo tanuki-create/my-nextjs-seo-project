@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { SitemapStream, streamToPromise } from 'sitemap';
-import { getAllArticleSlugs } from './src/lib/api.ts';
+import { getAllArticleSlugs } from './src/lib/api.js';
 
 async function generateSitemap() {
   const smStream = new SitemapStream({ hostname: 'https://keibi.org' });
