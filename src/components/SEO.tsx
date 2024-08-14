@@ -14,6 +14,16 @@ const SEO: React.FC<SEOProps> = ({ title, description, image }) => (
     <meta property="og:description" content={description} />
     <meta property="og:image" content={image || '/images/logo.png'} />
     <meta name="twitter:card" content="summary_large_image" />
+    <script type="application/ld+json">
+      {JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": title,
+        "url": "https://yourwebsite.com",
+        "description": description,
+        "image": image || '/images/logo.png'
+      })}
+    </script>
   </Head>
 );
 
