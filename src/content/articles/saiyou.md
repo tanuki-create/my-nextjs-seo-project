@@ -182,7 +182,7 @@ keywords: "警備, 採用, 求人サイト, 比較, おすすめ"
             『ケイサーチ！』は、株式会社第二章が提供する警備業に特化した採用サイトです。様々なプランが用意されており、予算に合わせて求人投稿が可能です。
           </p>
           <p>
-            アルバイト・契約��員、正社員の採用ができるほか、様々な採用活動の対応可能。一番ランクの高いプランに入ることで、求職者にとって目がつきやすくなります。また専任のコンサルタントがつくため、サポートが充実しています。採用予算が多めの企業向きかもしれません。
+            アルバイト・契約社員、正社員の採用ができるほか、様々な採用活動の対応可能。一番ランクの高いプランに入ることで、求職者にとって目がつきやすくなります。また専任のコンサルタントがつくため、サポートが充実しています。採用予算が多めの企業向きかもしれません。
           </p>
           <p>
             9,000件以上の掲載実績
@@ -228,7 +228,7 @@ keywords: "警備, 採用, 求人サイト, 比較, おすすめ"
           出典：<a href="https://keibee-babe.com/" target="_blank" rel="noopener noreferrer">https://keibee-babe.com/</a>
         </div>
         <div class="price">
-          <p>���金形態:要問い合わせ</p>
+          <p>課金形態:要問い合わせ</p>
         </div>
         <div class="description">
           <p>
@@ -253,7 +253,7 @@ keywords: "警備, 採用, 求人サイト, 比較, おすすめ"
       <div class="content">
         <div class="image-section">
           <img src="/powerwork.png" alt="Keibee" class="main-image" />
-          ��典：<a href="https://powerwork.jp/" target="_blank" rel="noopener noreferrer">https://powerwork.jp/</a>
+          出典：<a href="https://powerwork.jp/" target="_blank" rel="noopener noreferrer">https://powerwork.jp/</a>
         </div>
         <div class="price">
           <p>課金形態:掲載課金</p>
