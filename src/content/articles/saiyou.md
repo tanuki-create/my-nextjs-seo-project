@@ -110,7 +110,7 @@ keywords: "警備, 採用, 求人サイト, 比較, おすすめ, 警備会社, 
   </section>
 
   <section id="how-to-choose" class="section">
-    <h2 class="section-title">警備特化型求人サイ��の選び方</h2>
+    <h2 class="section-title">警備特化型求人サイトの選び方</h2>
     <h3 class="section-subtitle">自社に最適な求人サイトとは</h3>
     <p class="section-text">
       警備特化型求人サイトは数多く存在しますが、自社に最適なサイトを選ぶことが重要です。求人サイトを選ぶ際には、以下の点を考慮しましょう。
