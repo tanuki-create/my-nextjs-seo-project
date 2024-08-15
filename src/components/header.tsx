@@ -8,6 +8,7 @@ const Header: React.FC = () => (
       <title>警備info - あなたの安全を守る情報サイト</title>
       <meta name="description" content="警備infoは、最新の警備情報と安全対策を提供するサイトです。" />
       <meta name="keywords" content="警備, 安全, セキュリティ, 情報" />
+      <link rel="icon" href="/favicon.ico" />
     </Head>
     <header className="bg-white shadow-md">
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
