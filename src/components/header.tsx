@@ -5,9 +5,9 @@ import Head from 'next/head';
 const Header: React.FC = () => (
   <>
     <Head>
-      <title>警備info - あなたの安全を守る情報サイト</title>
-      <meta name="description" content="警備infoは、最新の警備情報と安全対策を提供するサイトです。" />
-      <meta name="keywords" content="警備, 安全, セキュリティ, 情報" />
+      <title>警備info - 警備総合情報サイト</title>
+      <meta name="description" content="警備infoは、最新のお役立ち警備情報を提供するサイトです。" />
+      <meta name="keywords" content="警備, 安全, セキュリティ, 情報, 役立つ" />
       <link rel="icon" href="/favicon.ico" />
     </Head>
     <header className="bg-white shadow-md">
