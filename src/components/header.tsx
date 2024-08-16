@@ -10,7 +10,7 @@ const Header: React.FC = () => (
       <meta name="keywords" content="警備, 安全, セキュリティ, 情報, 役立つ" />
       <link rel="icon" href="/favicon.ico" />
     </Head>
-    <header className="bg-white shadow-md">
+    <header className="bg-white shadow-md w-full">
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
         <div className="flex items-center">
           <Link href="/" className="flex items-center">
@@ -37,10 +37,6 @@ const Header: React.FC = () => (
       }
       .text-2xl {
         font-size: 1.5rem;
-      }
-      header {
-        width: 100vw;
-        overflow-x: hidden;
       }
     `}</style>
   </>
