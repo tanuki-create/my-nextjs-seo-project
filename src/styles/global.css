@@ -6,6 +6,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     background-color: #fcfcfd; /* 背景色を追加 */
     color: #333; /* テキストカラーを追加 */
+    overflow-x: hidden; /* 横スクロールを無効にする */
 }
 
 a {
