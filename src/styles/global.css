@@ -57,6 +57,7 @@ a:hover {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 1rem; /* パディングを追加 */
+    box-sizing: border-box; /* Add this line */
 }
 
 .px-4 {
