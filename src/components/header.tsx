@@ -25,19 +25,17 @@ const Header: React.FC = () => (
       </div>
     </header>
     <style jsx>{`
-      header {
-        @media (max-width: 640px) {
-          .container {
-            padding-left: 1rem;
-            padding-right: 1rem;
-          }
-          .h-8 {
-            height: 2rem;
-          }
-          .text-2xl {
-            font-size: 1.5rem;
-          }
-        }
+      .container {
+        width: 100%;
+        max-width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+      .h-8 {
+        height: 2rem;
+      }
+      .text-2xl {
+        font-size: 1.5rem;
       }
     `}</style>
   </>
