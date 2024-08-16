@@ -38,6 +38,10 @@ const Header: React.FC = () => (
       .text-2xl {
         font-size: 1.5rem;
       }
+      header {
+        width: 100vw;
+        overflow-x: hidden;
+      }
     `}</style>
   </>
 );
