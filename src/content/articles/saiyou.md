@@ -24,6 +24,23 @@ keywords: "警備, 採用, 求人サイト, 比較, おすすめ, 警備会社, 
     <meta name="description" content="警備業界に特化した求人サイトを徹底比較。おすすめの求人サイト5選を紹介します。" />
     <meta name="keywords" content="警備, 採用, 求人サイト, 比較, おすすめ" />
     <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            background-color: #fcfcfd;
+            color: #333;
+            overflow-x: hidden;
+        }
+        .container {
+            width: 100%;
+            max-width: 100%;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            box-sizing: border-box;
+        }
         table {
             width: 100%;
             border-collapse: collapse;
@@ -39,8 +56,8 @@ keywords: "警備, 採用, 求人サイト, 比較, おすすめ, 警備会社, 
             background-color: #f2f2f2;
         }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <table>
         <thead>
             <tr>
@@ -83,7 +100,7 @@ keywords: "警備, 採用, 求人サイト, 比較, おすすめ, 警備会社, 
             </tr>
         </tbody>
     </table>
-</body>
+  </body>
 
   <nav class="nav">
     <h2 class="nav-title">目次</h2>
@@ -115,7 +132,7 @@ keywords: "警備, 採用, 求人サイト, 比較, おすすめ, 警備会社, 
     <p class="section-text">
       警備特化型求人サイトは数多く存在しますが、自社に最適なサイトを選ぶことが重要です。求人サイトを選ぶ際には、以下の点を考慮しましょう。
       <ul class="list-disc">
-        <li>掲載料金</li>
+        <li>掲載料���</li>
         <li>求人情報の掲載範囲</li>
         <li>求職者の属性</li>
         <li>機能</li>
@@ -307,7 +324,7 @@ keywords: "警備, 採用, 求人サイト, 比較, おすすめ, 警備会社, 
       <li>定着率の向上</li>
     </ul>
     <p>
-      採用ブランディングは、求人広告の内容や掲載媒体、採用活動のメッセージなど、様々な要素によって構築されます。
+      採用ブランデ���ングは、求人広告の内容や掲載媒体、採用活動のメッセージなど、様々な要素によって構築されます。
     </p>
 
     <h3 class="text-[20px] font-bold text-[#0080FF] pb-[10px]">
@@ -340,7 +357,7 @@ keywords: "警備, 採用, 求人サイト, 比較, おすすめ, 警備会社, 
       <li>SNS</li>
     </ul>
     <p>
-      求人メディアを効果的に組み合わせることで、より多くの求職者にアプローチすることができます。例えば、ハローワーク、有料媒体などを組み合わせることで、継続的な採用につながる可能性があります。地域によっては、特定の求人メディアを活用することで、求職者の到達が向上する可能性があります。
+      求人メディアを効果的に組み合わせることで、より多くの求職者にアプローチすることができます。例えば、ハローワークや有料媒体などを組み合わせることで、継続的な採用につながる可能性があります。地域によっては、特定の求人メディアを活用することで、求職者の到達が向上する可能性があります。
     </p>
   </section>
 
