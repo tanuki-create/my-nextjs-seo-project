@@ -30,6 +30,7 @@ const Header: React.FC = () => (
         max-width: 100%;
         padding-left: 1rem;
         padding-right: 1rem;
+        box-sizing: border-box;
       }
       .h-8 {
         height: 2rem;
