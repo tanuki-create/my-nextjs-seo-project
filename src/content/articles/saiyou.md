@@ -176,7 +176,7 @@ keywords: "警備, 採用, 求人サイト, 比較, おすすめ, 警備会社, 
             今年(2024年)6月から始まった採用媒体ですので、これから登録者が増えていくでしょう。
           </p>
           <p class="source">
-            お問い合わせ：<a href="https://securict.jp/inq2" target="_blank" rel="noopener noreferrer">https://securict.jp/inq2</a>
+            お問い合わせ：<a href="https://www.threen.info/%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9" target="_blank" rel="noopener noreferrer">サービスページ</a>
           </p>
         </div>
       </div>
