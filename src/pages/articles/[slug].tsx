@@ -52,12 +52,12 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     const fileContent = fs.readFileSync(filePath, 'utf8');
     const { data: articleData, content: articleContent } = matter(fileContent);
     return {
-      title: articleData.title, // タイトルを追加
-      excerpt: articleData.excerpt, // 抜粋を追加
-      image: articleData.image, // 画像を追加
-      tags: articleData.tags, // タグを追加
-      author: articleData.author, // 著者を追加
-      date: articleData.date, // 日付を追加
+      title: articleData.title || 'タイトル未設定', // タイトルが未設定の場合のデフォルト値
+      excerpt: articleData.excerpt || '', // excerptが未設定の場合は空文字列を設定
+      image: articleData.image || '/default-image.jpg', // 画像が未設定の場合のデフォルト画像
+      tags: articleData.tags || [], // タグが未設定の場合は空配列
+      author: articleData.author || '著者不明', // 著者が未設定の場合のデフォルト値
+      date: articleData.date || new Date().toISOString(), // 日付が未設定の場合のデフォルト値
       content: articleContent,
       slug: filename.replace(/\.md$/, ''),
     };
