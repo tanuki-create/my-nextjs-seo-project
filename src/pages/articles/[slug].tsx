@@ -52,7 +52,12 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     const fileContent = fs.readFileSync(filePath, 'utf8');
     const { data: articleData, content: articleContent } = matter(fileContent);
     return {
-      ...articleData,
+      title: articleData.title, // タイトルを追加
+      excerpt: articleData.excerpt, // 抜粋を追加
+      image: articleData.image, // 画像を追加
+      tags: articleData.tags, // タグを追加
+      author: articleData.author, // 著者を追加
+      date: articleData.date, // 日付を追加
       content: articleContent,
       slug: filename.replace(/\.md$/, ''),
     };
