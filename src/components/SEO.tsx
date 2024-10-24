@@ -10,12 +10,12 @@ interface SEOProps {
 // SEOコンポーネントを定義
 const SEO: React.FC<SEOProps> = ({ title, description, image }) => (
   <Head>
-    <title>{title}</title> // タイトルを設定
-    <meta name="description" content={description} /> // 説明を設定
-    <meta property="og:title" content={title} /> // Open Graphのタイトルを設定
-    <meta property="og:description" content={description} /> // Open Graphの説明を設定
-    <meta property="og:image" content={image || '/logo-no-background.png'} /> // Open Graphの画像を設定
-    <meta name="twitter:card" content="summary_large_image" /> // Twitterカードのタイプを設定
+    <title>{title}</title> {/* タイトルを設定 */}
+    <meta name="description" content={description} /> {/* 説明を設定 */}
+    <meta property="og:title" content={title} /> {/* Open Graphのタイトルを設定 */}
+    <meta property="og:description" content={description} /> {/* Open Graphの説明を設定 */}
+    <meta property="og:image" content={image || '/logo-no-background.png'} /> {/* Open Graphの画像を設定 */}
+    <meta name="twitter:card" content="summary_large_image" /> {/* Twitterカードのタイプを設定 */}
     <script type="application/ld+json">
       {JSON.stringify({
         "@context": "https://schema.org",
