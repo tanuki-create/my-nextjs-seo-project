@@ -56,8 +56,7 @@ a:hover {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 1rem; /* パディングを追加 */
-    box-sizing: border-box; /* Add this line */
+    box-sizing: border-box;
 }
 
 .px-4 {
@@ -213,4 +212,27 @@ th, td {
 }
 th {
     background-color: #f2f2f2;
+}
+
+/* containerクラスを修正 */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* 新しいレイアウト用のクラスを追加 */
+.layout-container {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 2rem; /* 左右の余白 */
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .layout-container {
+        padding: 0 1rem;
+    }
 }

@@ -120,136 +120,90 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 
 // メインコンポーネント
 const ArticlePage: React.FC<ArticlePageProps> = ({ data, content, allArticles }) => {
-  // スクロールボタンの表示状態を管理
-  const [showScrollButton, setShowScrollButton] = useState(false);
-
-  // 関連記事の取得（同じタグを持つ記事を優先）
-  const relatedArticles = allArticles
-    .filter(article => article.slug !== data.slug)
-    .sort((a, b) => {
-      const aCommonTags = a.tags.filter(tag => data.tags?.includes(tag)).length;
-      const bCommonTags = b.tags.filter(tag => data.tags?.includes(tag)).length;
-      return bCommonTags - aCommonTags;
-    })
-    .slice(0, 3);
-
-  // スクロールボタンの表示制御
-  useEffect(() => {
-    const handleScroll = () => {
-      setShowScrollButton(window.scrollY > 300);
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
-
-  // ページトップへのスクロール
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-
   return (
-    <>
+    <div className="relative w-full">
       {/* ヘッダーを固定位置に */}
       <div className="fixed top-0 left-0 right-0 z-50 bg-white">
-        <div className="max-w-[1920px] mx-auto">
+        <div>
           <Header />
         </div>
       </div>
 
       {/* メインコンテンツ */}
-      <div className="min-h-screen flex flex-col max-w-[1920px] mx-auto">
-        <SEO 
-          title={data.title} 
-          description={data.excerpt || content.slice(0, 150)} 
-          image={data.image}
-        />
-        
-        {/* ヘッダーの高さ分のスペースを確保 */}
-        <div className="h-16"></div>
-        
-        <main className="flex-grow">
-          <article className="container mx-auto px-4 py-8 max-w-4xl">
-            {/* 記事ヘッダー */}
-            <div className="mb-8">
-              <h1 className="text-4xl font-bold mb-4">{data.title}</h1>
-              <div className="flex items-center text-gray-600 mb-4">
-                <span className="mr-4">{formatDate(data.date)}</span>
-                <span className="mr-4">著者: {data.author}</span>
+      <div className="min-h-screen flex flex-col">
+        <div className="layout-container">
+          <SEO 
+            title={data.title} 
+            description={data.excerpt || content.slice(0, 150)} 
+            image={data.image}
+          />
+          
+          <div className="h-16"></div>
+          
+          <main className="flex-grow">
+            <article className="container py-8 max-w-4xl">
+              {/* 記事ヘッダー */}
+              <div className="mb-8">
+                <h1 className="text-4xl font-bold mb-4">{data.title}</h1>
+                <div className="flex items-center text-gray-600 mb-4">
+                  <span className="mr-4">{formatDate(data.date)}</span>
+                  <span className="mr-4">著者: {data.author}</span>
+                </div>
+                {data.tags && data.tags.length > 0 && (
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    {data.tags.map((tag: string) => (
+                      <span key={tag} className="bg-gray-200 px-3 py-1 rounded-full text-sm">
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                )}
               </div>
-              {data.tags && data.tags.length > 0 && (
-                <div className="flex flex-wrap gap-2 mb-4">
-                  {data.tags.map((tag: string) => (
-                    <span key={tag} className="bg-gray-200 px-3 py-1 rounded-full text-sm">
-                      {tag}
-                    </span>
+
+              {/* 記事本文 */}
+              <div className="prose max-w-none">
+                <div dangerouslySetInnerHTML={{ __html: content }} />
+              </div>
+
+              {/* 関連記事セクション */}
+              <div className="mt-16">
+                <h2 className="text-2xl font-semibold mb-6">関連記事</h2>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                  {allArticles
+                    // 現在の記事を除外
+                    .filter(article => article.slug !== data.slug)
+                    // 最大6件まで表示
+                    .slice(0, 6)
+                    .map((article) => (
+                      <Link 
+                        key={article.slug}
+                        href={`/articles/${article.slug}`} 
+                        className="block bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300"
+                      >
+                        <div 
+                          className="h-48 bg-cover bg-center" 
+                          style={{ backgroundImage: `url(${article.image})` }}
+                        />
+                        <div className="p-4">
+                          <h3 className="text-xl font-semibold mb-2">{article.title}</h3>
+                          <p className="text-sm text-gray-600 line-clamp-2">{article.excerpt}</p>
+                        </div>
+                      </Link>
                   ))}
                 </div>
-              )}
-            </div>
-
-            {/* 記事本文 */}
-            <div className="prose max-w-none">
-              <div dangerouslySetInnerHTML={{ __html: content }} />
-            </div>
-
-            {/* 関連記事セクション */}
-            <div className="mt-16">
-              <h2 className="text-2xl font-semibold mb-6">関連記事</h2>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                {relatedArticles.map((article) => (
-                  <Link 
-                    key={article.slug}
-                    href={`/articles/${article.slug}`} 
-                    className="block bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300"
-                  >
-                    <div 
-                      className="h-48 bg-cover bg-center" 
-                      style={{ backgroundImage: `url(${article.image})` }}
-                    />
-                    <div className="p-4">
-                      <h3 className="text-xl font-semibold mb-2">{article.title}</h3>
-                      <p className="text-sm text-gray-600 line-clamp-2">{article.excerpt}</p>
-                    </div>
-                  </Link>
-                ))}
               </div>
-            </div>
-          </article>
-        </main>
-      </div>
-
-      {/* フッターを下部に固定 */}
-      <div className="w-full bg-white">
-        <div className="max-w-[1920px] mx-auto">
-          <Footer />
+            </article>
+          </main>
         </div>
       </div>
 
-      {/* スクロールトップボタン */}
-      {showScrollButton && (
-        <button 
-          onClick={scrollToTop} 
-          className="fixed bottom-4 right-4 bg-blue-500 text-white p-3 rounded-full shadow-lg hover:bg-blue-700 transition-colors duration-300"
-          aria-label="ページトップへ戻る"
-          style={{ zIndex: 1000 }}
-        >
-          <svg 
-            className="w-6 h-6" 
-            fill="none" 
-            stroke="currentColor" 
-            viewBox="0 0 24 24"
-          >
-            <path 
-              strokeLinecap="round" 
-              strokeLinejoin="round" 
-              strokeWidth={2} 
-              d="M5 10l7-7m0 0l7 7m-7-7v18" 
-            />
-          </svg>
-        </button>
-      )}
-    </>
+      {/* フッター */}
+      <div className="w-full bg-white">
+        <div>
+          <Footer />
+        </div>
+      </div>
+    </div>
   );
 };
 
