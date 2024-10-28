@@ -200,3 +200,17 @@ a:hover {
   display: block; /* ブロック要素に設定 */
   margin: 0 auto; /* 中央寄せ */
 }
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1rem;
+    text-align: left;
+}
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+th {
+    background-color: #f2f2f2;
+}
