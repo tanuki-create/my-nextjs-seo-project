@@ -23,7 +23,7 @@ keywords: "警備, 採用, 求人サイト, 求人掲載, コスト削減, 効�
     <title>【2024年冬版】採用課金型掲載サイトの活用法！</title>
     <meta name="description" content="採用課金型掲載サイトを活用して、採用活動を効率化する方法やおすすめサイトを紹介します。" />
     <meta name="keywords" content="警備, 採用, 求人サイト, 求人掲載, コスト削減, 効率的採用" />
-    <style>
+    <!-- <style>
         body {
             margin: 0;
             padding: 0;
@@ -55,7 +55,7 @@ keywords: "警備, 採用, 求人サイト, 求人掲載, コスト削減, 効�
         th {
             background-color: #f2f2f2;
         }
-    </style>
+    </style> -->
   </head>
   <body>
     

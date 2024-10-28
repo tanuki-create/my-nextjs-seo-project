@@ -23,7 +23,7 @@ keywords: "警備, 警備員, 採用, 求人サイト, 比較, おすすめ, 警
     <title>【徹底比較】警備採用のおすすめ求人サイト5選</title>
     <meta name="description" content="警備業界に特化した求人サイトを徹底比較。おすすめの求人サイト5選を紹介します。" />
     <meta name="keywords" content="警備, 採用, 求人サイト, 比較, おすすめ" />
-    <style>
+    <!-- <style>
         body {
             margin: 0;
             padding: 0;
@@ -77,7 +77,7 @@ keywords: "警備, 警備員, 採用, 求人サイト, 比較, おすすめ, 警
                 padding: 6px; /* パディングを6pxに縮小 */
             }
         }
-    </style>
+    </style> -->
   </head>
   <body>
     <table>
