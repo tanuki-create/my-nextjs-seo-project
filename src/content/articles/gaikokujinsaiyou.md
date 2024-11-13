@@ -23,7 +23,7 @@ keywords: "警備, 採用, 求人サイト, 求人掲載, コスト削減, 効�
     <title>【2024年最新版】外国人採用を成功させるための秘訣！</title>
     <meta name="description" content="外国人人材の採用活動を行う際の注意点やおすすめサイトを紹介します。" />
     <meta name="keywords" content="警備, 採用, 求人サイト, 求人掲載, コスト削減, 効率的採用, 外国人" />
-    <style>
+    <!-- <style>
         body {
             margin: 0;
             padding: 0;
@@ -55,7 +55,7 @@ keywords: "警備, 採用, 求人サイト, 求人掲載, コスト削減, 効�
         th {
             background-color: #f2f2f2;
         }
-    </style>
+    </style> -->
   </head>
   <body>
     
